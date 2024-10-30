@@ -11,7 +11,7 @@ namespace Tyuiu.KarandaAR.Sprint3.Task1.V9.Lib
             {
                 p *= Math.Pow(300 / (Math.Cos(value) + Math.Pow(value, k)), k);
             }
-            return Math.Round(p, 2);
+            return Math.Round(p, 3);
         }
     }
 }
