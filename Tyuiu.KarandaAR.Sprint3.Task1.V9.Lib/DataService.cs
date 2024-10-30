@@ -6,7 +6,7 @@ namespace Tyuiu.KarandaAR.Sprint3.Task1.V9.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            double p = 0;
+            double p = 1;
             for (int k = startValue; k <= stopValue; k++)
             {
                 p *= Math.Pow(300 / (Math.Cos(value) + Math.Pow(value, k)), k);
