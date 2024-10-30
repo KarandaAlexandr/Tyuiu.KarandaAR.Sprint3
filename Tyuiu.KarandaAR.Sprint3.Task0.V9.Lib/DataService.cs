@@ -11,7 +11,7 @@ namespace Tyuiu.KarandaAR.Sprint3.Task0.V9.Lib
             {
                 sum += Math.Pow(1 / (3 + Math.Pow(value, i)), i);
             }
-            return sum;
+            return Math.Round(sum, 2);
         }
     }
 }
