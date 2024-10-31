@@ -7,7 +7,7 @@ namespace Tyuiu.KarandaAR.Sprint3.Task4.V20.Lib
         public double Calculate(int startValue, int stopValue)
         {
             double p = 1;
-            for (int x = startValue; x < stopValue; x++)
+            for (int x = startValue; x <= stopValue; x++)
             {
                 if (x == 0)
                 {
