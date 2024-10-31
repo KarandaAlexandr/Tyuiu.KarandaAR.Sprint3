@@ -14,6 +14,7 @@ namespace Tyuiu.KarandaAR.Sprint3.Task4.V20.Lib
                     continue;
                 }
                 p *= x / (Math.Cos(x) - x) + 2.5;
+
             }
             return Math.Round(p, 3);
         }
