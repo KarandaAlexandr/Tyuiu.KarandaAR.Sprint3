@@ -6,10 +6,10 @@ namespace Tyuiu.KarandaAR.Sprint3.Task6.V4.Lib
     {
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
-            int summa = 1;
+            int summa = 0;
             for (int number = startValue; number <= stopValue; number++)
             {
-                for (int i = 9; i <= number; i++)
+                for (int i = 10; i <= number; i++)
                 {
                     if (number % i == 0)
                     {
